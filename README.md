@@ -45,5 +45,3 @@ HeaderView Label Name
 //  {@"Z":@[@"bean",@"Big",@"boy"]}]<p/>
 #####+(NSArray *)getGroupedDictionaryArray:(NSArray *)array;
 
-
-Than you can use it.
