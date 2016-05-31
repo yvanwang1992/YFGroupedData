@@ -6,7 +6,7 @@ group data when use UITableView with HeaderView. MeanWhile,the array will be gro
 "✿"      means  others <p/>
   
 
-##[博客园记录: 【IOS】将一组包含中文的数据按照#ABC...Z✿分组(http://www.cnblogs.com/yffswyf/p/5542852.html) 
+#####[博客园记录: 【IOS】将一组包含中文的数据按照#ABC...Z✿分组(http://www.cnblogs.com/yffswyf/p/5542852.html) 
 
 ##Effection: 
 
@@ -27,23 +27,23 @@ HeaderView Label Name
 ####2.Methods<p/>
 
 //@[[@"11",@"32"],@[@"big",@"Boy"],...@[@"zoom",@"zune"]]<p/>
-+(NSArray *)getGroupedArray:(NSArray *)array;
+#####+(NSArray *)getGroupedArray:(NSArray *)array;
 
 //@[@"title1",@"title2",...@"titlen"]<p/>
-+(NSArray *)getIndexArray:(NSArray *)array;
+#####+(NSArray *)getIndexArray:(NSArray *)array;
 
 
 //@[{@"indexKey":@"A",@"arrayKey":@[@"abandon",@"About",@"All"]},
 //                    ............                              ,
 //@{@"indexKey":@"Z",@"arrayKey":@[@"bean",@"Big",@"boy"]}<p/>
-+(NSArray *)getGroupedDictionaryArray:(NSArray *)array
+#####+(NSArray *)getGroupedDictionaryArray:(NSArray *)array
                              indexKey:(NSString *)indexKey
                              arrayKey:(NSString *)arrayKey;
 
 //@[{@"A":@[@"abandon",@"About",@"All"]},
 //       ......................         ,
 //  {@"Z":@[@"bean",@"Big",@"boy"]}]<p/>
-+(NSArray *)getGroupedDictionaryArray:(NSArray *)array;
+#####+(NSArray *)getGroupedDictionaryArray:(NSArray *)array;
 
 
 Than you can use it.
