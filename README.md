@@ -1,5 +1,6 @@
 # YFGroupedData
-group data when use UITableView with HeaderView. MeanWhile,the array will be grouped as #ABC...Z✿.
+Get grouped data which can be used in UITableView with HeaderView. 
+MeanWhile,the array will be grouped as #ABC...Z✿ ordered in ascending order 
 
 "#"      means  number <p/>
 "ABC..Z" means  alphabet <p/>
